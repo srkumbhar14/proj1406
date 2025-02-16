@@ -1,0 +1,2343 @@
+09/09/2023:
+
+Python is a general purpose programming language.
+inventor/father of python is - G. V. Rossum 
+in 1991 year.
+
+it's Use /Application:
+1. web development (server-side),
+2. desktop software development,
+3. database application,
+4. system scripting.
+5. desktop application
+6. gaming
+7. Data Science
+8. Machine Learning
+
+
+Installation of Python:
+
+visit - python.org
+download 64 bit python 3.8.3 version.
+Note: python 3.8.3 is the most stable version.
+
+Installation of Pycharm.
+1. open browser and type - pycharm download
+2. download the community edition of python.
+3. install it properly.
+4. search in search bar as 'pycharm' and open it 
+on local laptop.
+
+
+
+features:
+1. simple and easy to learn
+2. open source - freely available..
+3. high level programming language
+
+high level - human readable format/code
+
+converter -- interpreter / compiler..
+
+low level - machine understadable (binary(0,1) language)
+after that --> you will receive the output.
+
+4. platform independant
+5. portability - result is same on any platform.
+6. high set of library/package support
+7. Object Oriented Programming's etc..
+
+
+
+
+
+How to create the project in Pycharm:-
+go to file option then select as new project..
+
+create and run a simple program in Pycharm.
+
+hello world program:
+
+print("Hello, Welcome to Python Classes...")
+
+a = 10
+b = 20
+c = a + b
+print("addition is:-", c)
+
+-----------------------------------------------------
+10/09/2023:
+
+comments:
+
+Comments can be used to explain Python code.
+Comments can be used to make the code more readable.
+Comments can be used to prevent execution 
+when testing code.
+
+we use # to add the comments.
+
+Multi Line Comments:
+Python does not really have a 
+syntax for multi line comments.
+To add a multiline comment 
+you could insert a # for each line:
+
+
+-------------------------------
+10/09/2023: 
+
+Variables (Identifiers):
+Variables are containers for storing data values.
+
+
+x = 6 # integer number
+y = "python" #string
+z = 10.4  # float number
+
+
+x = 6  # integer number
+y = "python"  # string
+z = 10.4   # float number
+print("x data type is:- ", type(x))
+print("y data type is:- ", type(y))
+print("z data type is:- ", type(z))
+
+print(x)
+print(y)
+print(z)
+
+rules for declaring Variable Names:
+
+A variable can have a short name 
+(like x and y) or a more descriptive 
+name (age, car_name, total_volume, pan_num). 
+
+
+Rules for Python variables:
+1. A variable name must start with a letter 
+or the underscore character.
+
+2. A variable name cannot start with a number.
+
+3. A variable name can only 
+contain alpha-numeric characters 
+and underscores (a-z, 0-9, and _ )
+
+Variable names are case-sensitive 
+(age, Age and AGE are three different variables)
+
+#case sensitive
+age = 12
+Age = 122
+AGE = 12222
+
+print(type(x))
+print(type(y))
+print(type(z))
+
+
+
+Case Sensitive:
+age = "python"
+Age = "python"
+AGE = "python"
+#case sensitive
+print(age)
+print(Age)
+print(AGE)
+
+
+program 2:
+x, y, z = "Orange", "Banana", "Cherry"
+print(z, y, x)
+#print(y)
+#print(z)
+
+just to reduce the lines of source code.
+Case Sensitive:
+age = Age = AGE = "python"
+print(age)
+print(Age)
+print(AGE)
+
+	
+# string - a collection of character...
+# 3 quotes to define the string
+# ' ' - single quotes
+# " " - double quotes
+
+# ''' string goes here ''' - triple single quotes
+# """  string goes here  """ - triple double quotes
+----------------------------------------------
+12/09/2023:
+
+s = "python"
+print(s[0])
+print(s[1])
+print(s[7])
+
+
+string variations2:
+x = "Python"
+y = "is"
+z = "awesome"
+print(x, y, z)
+
+x = "python"
+y = x + " programming" #slicing
+print(y)
+print(y[10])
+
+
+Built-in Data Types:
+In programming, data type is an important concept.
+
+Variables can store data of different types, 
+and different types can do different things.
+
+Python has the following data types built-in by default, in these categories:
+
+Text Type:	str
+Numeric Types:	int, float, complex
+Sequence Types:	list, tuple, range
+Mapping Type:	dict
+Set Types:	set, frozenset
+Boolean Type:	bool
+Binary Types:	bytes, bytearray, memoryview
+None Type:	NoneType
+
+
+
+complex = 2i + 3j
+
+x = 'python'
+s = "python is a 'smart' language"
+print(s)
+
+a = "Hello"
+print(a)
+print(type(a))
+print(len(a))
+
+for string quotes:
+'' - single
+"" - double
+'''  ''' - single triple quotation
+""" """ - double triple quotation
+
+You can return a range of characters by using the slice syntax.
+
+Specify the start index and the end index, separated by a colon, to return a part of the string.
+
+#yth
+#   "012345" index position of each charcter
+s = "python is a good language." #access it only index position
+print(s[0:6] + " " + s[12:16]) #slicing method
+#formulaa
+# 4-1 = 3 charcter prints
+#
+
+x = "python" #pyt # a collection of char #slicing #
+print(x[0:3]) # 2+1 ---human reading...
+
+
+
+
+
+String:
+
+#sample program
+s = "python is a good "
+print(s[-5:-1]) #Negative index position
+
+
+a = "Hello, World!"
+print(a.upper())
+
+a = "Hello, World!"
+print(a.lower())
+
+a = "   Hello, World!     "
+print(a.strip())
+
+a = "Hello, Home!"
+print(a.replace("H", "$"))
+
+The split() method returns a list where the text between the specified separator becomes the list items.
+a = "Hello@ World@ python , java, is a good langage"
+
+b = a.split(" ") #seperator
+print(b)
+
+Concatination Program:
+a = "20"
+b = "20"
+c = a + b
+print(c)
+
+--------------------------------------------------
+11/09/2023
+
+
+#slicing....
+str1 = "PYthon IS aWesomeeeeee"
+print(str1.upper()) # upper case
+print(str1.lower())
+print(str1.replace("PY", "java"))
+print(str1.count('o'))
+print(str1.count('e'))
+
+a = "abc@gmail.com"
+b = "pqr@gmail.com"
+c = "xyz@gmail.com"
+x = "Hello# world# pune"
+print(a.split('@')) #seperator
+print(x.split('#'))
+
+
+
+#slicing....
+str1 = "    PYthon IS aWesomeeeeee     "
+#print(str1)
+#print(str1.strip())
+#print(str1.lstrip())
+#print(str1.rtrip())
+#print(str1.upper()) # upper case
+#print(str1.lower())
+#print(str1.replace("PY", "java"))
+#print(str1.count('o'))
+#print(str1.count('e'))
+
+
+a = "Hello, World, py, java, sbiuefgieb"
+print(type(a))
+b = a.split(",")
+print(type(b))
+print(b)
+
+txt = "hello, and welcome to my world. are you"
+print(txt)
+
+x = txt.capitalize()
+print (x)
+
+txt = "hello, and welcome to my world."
+print(txt.capitalize())
+
+Boolean data type:
+print(10 > 9)
+print(10 == 10)
+print(10 < 9)
+
+
+Basic IF-Else:
+
+a = 200
+b = 33
+# if-else statement
+if a > b: #200>33 
+  print("a is greater")
+else:
+  print("b is not greater")
+
+word terminology:
+operation
+expression
+condition
+
+print(10 * 5)
+# 10 & 5 are the operands
+# +, *, - are the operators
+
+----------------------------------------------------
+
+lis = [10, 20.3, 'python', 2+3j, "java", 2.1] #aaray
+print(lis[1:3])
+print(lis)
+print(type(lis))
+print(len(lis))
+print((lis[0]))
+print((lis[2]))
+print((lis[-1]))
+
+List Datatype:
+
+thislist = ["apple", 12, 23.3, 23, "CID", 2.3, True]
+a = thislist[0]
+print(a + " is good")
+print(thislist[1:3])
+print(type(thislist))
+print(len(thislist))
+print(thislist[-2])
+
+thislist = ["apple", "banana", "cherry"]
+
+if "apple" in thislist:
+  print("Yes, 'apple' is in the fruits list")
+
+
+thislist = [2345, "banana", "cherry"]
+thislist[0] = "watermelon"
+del thislist[0]
+print(thislist)
+#change the list element 
+
+
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
+
+thislist[1:3] = ["blackcurrant", "watermelon"]
+
+print(thislist)
+
+thislist = ["apple", "banana", "cherry"]
+
+thislist[1] = "blackcurrant"
+
+print(thislist)
+# item, element
+
+lis = [10, 20.3, 'python', 2+3j, "java", 2.1] #aaray
+# update the list element
+lis[2] = "GO Language"
+lis[4] = "python"
+print(lis)
+To insert a new list item, without replacing any of the existing values, we can use the insert() method.
+
+Methods:
+
+The insert() method inserts an item at the specified index:
+
+lis = [10, 20.3, 'python', 2+3j, "java", 2.1] #aaray
+#insert() - insert the element at specific position.
+#lis.insert(2, "aws10-11")
+#print(lis) #delete the element
+del lis[5] #delete inbuilld keyword
+print(lis)
+
+thislist = ["apple", "banana", "cherry"]
+
+thislist.append("orange")
+thislist.append("cherry")
+print(thislist)
+-------------------------------------------------
+12/09/2023:
+
+
+example 2 :
+lis = [10, 20.3, 'python', 2+3j, "java", 2.1] #aaray
+#append() - add the element at the end of the list
+lis.append('end')
+print(lis)
+lis.append('end2')
+print(lis)
+lis.append(100)
+print(lis)
+
+
+thislist = ["apple", "banana", "cherry"]
+
+tropical = ["mango", "pineapple", "papaya"]
+
+tropical.extend(thislist)
+
+print(tropical)
+
+
+example2:
+
+lis = [10, 20.3, 20,30] #aaray
+lis2 = [40, 50, 60]
+lis4 = [90,100]
+#extend() - combines two lists...
+lis.extend(lis2)
+print(lis)
+lis.extend(lis4)
+print(lis)
+print(lis2)
+
+thislist = ["apple", "banana", "cherry"]
+thistuple = ("kiwi", "orange")
+
+thislist.extend(thistuple)
+
+print(thislist) 
+
+
+all:
+lis = ['python', 'java','abc', 'zx']
+print(max(lis))
+print(min(lis))
+#print(len(lis))
+#lis.pop(0) #pop always works with index position/memory location
+#print(lis)
+#lis.remove(20.3) ##remove works with element name
+#print(lis)
+#lis.reverse()
+#print(lis)
+
+thislist = ["apple", "banana", "cherry"]
+
+thislist.remove("banana")
+print(thislist)
+
+
+thislist = ["apple", "banana", "cherry"]
+thislist.pop(1)
+print(thislist)
+
+
+lis = [10, 87, 20, 40, 10] #aaray
+lis.reverse() # reverse a list
+print(lis)
+print(max(lis))
+print(min(lis))
+print(len(lis))
+
+thislist = [10,20,30, "python"]
+
+for i in thislist:
+  print(i)   #new line pe print 
+  
+# automatic increament of index position
+# x is temporary varibale for all values
+#iterator (x)
+
+thislist = ["apple", "banana", "cherry"]
+
+#predefined syntax
+[print(i) for i in thislist]
+#list comprehension
+#faster computation
+#fewer line of code
+#great readability
+
+lis = [10,20,31, 37, 40]
+#for i in lis:
+ #   if i %2 == 0:
+  #      print(i)
+[print(i) for i in lis if i % 2 == 0]
+
+lis = [10,20,31, 37, 40]
+#for i in lis:
+ #   if i %2 == 0:
+  #      print(i)
+[print(i) for i in lis if i % 2 == 0]
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = []
+
+for x in fruits:
+  if "a" in x:
+    newlist.append(x)
+
+print(newlist)
+
+
+TUPLE:
+
+tup = (10,20.3, 'python', 2+3j, 3.14, 10)
+print(tup)
+print(len(tup))
+print(type(tup))
+print(tup[0])
+print(tup[-1])
+print(tup[2:4])
+for i in tup:
+    print(i)
+
+tup = (10,20.3, 'python', 2+3j, 3.14, 10) #tuple
+print(tup.count(10))
+print(tup.index(3.14))
+
+#what is the difference list & tuple?
+#1. about the brackets [] - list , () - tuple.
+#2. we can't update the elements like list...
+#3. which one is faster ? list? tuple? ---->tuple
+tuple are faster why--> because index static
+index position 
+
+[tuples are faster in terms of element access]
+
+
+
+
+conversion of tuple to list:
+
+tup = (10,20.3, 'python', 2+3j, 3.14, 10)
+print(type(tup))
+newlist = list(tup)
+print(newlist)
+print(type(newlist))
+newlist[1] = "java"
+print(newlist)
+new_tuple = tuple(newlist)
+print(new_tuple)
+
+
+
+--------------------------------------------------
+29/08/2023:
+
+Dictionary:
+dic = {'name':'python', 'age':1991, 'place':'US', 'name1':'python'}
+print(dic.get('place'))
+
+
+print(dic.keys())
+print(dic.values())
+# dic.clear()
+# print(dic)
+dic.pop('name1')
+print(dic)
+
+
+
+
+# dic['name'] = 'GO LANGUAGE'
+# dic['age'] = 2023
+# print(dic)
+# dic.update({'popularity': 'very high'})
+# print(dic)
+# moemory location is same an keys in dict...
+# lis = [10,20,30]
+# print(lis[0])
+
+sqaure program:
+
+#print the square of 1 to 6.
+lis = [1,2,3,4,5,6]
+# for i in lis:
+#     print(i*i)
+print([i*i for i in lis]) #list comprehension
+print({i:i*i for i in lis}) #dict comprehension
+
+
+#print the cube of 1 to 6.
+lis = [1,2,3,4,5,6]
+# for i in lis:
+#     print(i*i)
+print([i*i*i for i in lis]) #list comprehension
+print({i:i*i*i for i in lis}) #dict comprehension
+
+
+
+--------------------------------------------------
+31/08/2023:
+
+set datatype:
+a set is a collection of unique data elements.
+means that, elements in set can not be duplicate. 
+
+it has unordered collection of element means
+order is not in sequestional way.
+
+for ex:
+data = {10,20,30,30,20,10,' python'}  #unordered collection.
+print(data)
+print(type(data))
+#duplicate element remove
+
+data = {10,20,30,20,30,' python'}  #unordered collection.
+lis = ['apple', 'samsung', 'apple']
+data.update(lis) #used to update the set with other data types.
+print(data)
+data.discard('apple') #exact element pass
+print(data)
+print(len(data))
+#print(data)
+#print(type(data))
+#duplicate element remove
+#data.add(32) #add - is used to add the element in set().
+#print(data)
+
+data = {10,20,30,20,30,' python'}  #unordered collection.
+print(len(data))
+data.add('java') #
+print(data)
+
+
+# data = {10}
+# print(type(data))
+
+newdata = set()
+print(type(newdata))
+
+
+*********Datatype Conversion********
+
+*******tuple to list conversion*******:
+
+list() - list function
+tuple() - tuple function
+set() - set function
+
+tup = (10,20,30,40) #tuple
+print(type(tup))
+
+#actual conversion using list() method
+lis1 = list(tup)
+print(lis1)
+print(type(lis1))
+lis1[0] = 100
+#again store it back to the tuple....using tuple() method
+tuple2 = tuple(lis1)
+print(tuple2)
+
+
+2.set to list conversion:
+
+list() - list() function.
+
+data = {'python', 'java', 'go', 1991}
+li = list(data)
+print(li)
+print(type(li))
+
+3. List to set conversion:
+
+data = ['python', 'java', 'go', 1991, 1991]
+li = set(data)
+print(li)
+print(type(li))
+
+----------------------------------------------------
+31/08/2023:
+
+****Operators****
+
+1. arithmatic
+2. comparison
+3. assignment
+4. logical
+5. bitwise deprecate(connectivity removed)
+6. membership
+7. identity
+
+example:
+a = 4
+a+=7  # a = a + 7   #short form
+a-=2
+print(a)
+
+6. Membership:
+str1 = [10,20,304,40]
+print(12 not in str1)
+
+7. Identity:
+
+b = 20 # xx4200
+a = 20 #
+c = 20
+B = 20
+print(a is b)
+print(id(a)) #memory
+print(id(b))
+print(id(c))
+print(id(B))
+
+
+1. Arithmetic Operators:
+
++	Addition	10 + 20 = 30
+-	Subtraction	20 – 10 = 10
+*	Multiplication	10 * 20 = 200
+/	Division	20 / 10 = 2
+%	Modulus	22 % 10 = 2 -- reminder 
+**	Exponent	4**2 = 16
+//	Floor Division	9//2 = 4
+
+2. Comparison Operators:
+used to compare two values..
+
+==	Equal	        4 == 5 is not true.
+!=	Not Equal	4 != 5 is true.
+>	Greater Than	4 > 5 is not true.
+<	Less Than	4 < 5 is true.
+>=	Greater than or Equal to	4 >= 5 is not true.
+<=	Less than or Equal to	4 <= 5 is true.
+
+3. Assignment Operators
+
+=	Assignment Operator	a = 10
++=	Addition Assignment	a += 5 (Same as a = a + 5)
+-=	Subtraction Assignment	a -= 5 (Same as a = a - 5)
+*=	Multiplication Assignment	a *= 5 (Same as a = a * 5)
+/=	Division Assignment	a /= 5 (Same as a = a / 5)
+%=	Remainder Assignment	a %= 5 (Same as a = a % 5)
+**=	Exponent Assignment	a **= 2 (Same as a = a ** 2)
+//=	Floor Division Assignment	a //= 3 (Same as a = a // 3)
+
+4. Logical Operators:
+
+and Logical AND	---- If both the operands are true then condition becomes true.	(a and b) is true.
+or Logical OR	---- If any of the two operands are non-zero then condition becomes true.	(a or b) is true.
+not Logical NOT	---- Used to reverse the logical state of its operand.	Not(a and b) is false.
+
+5. Membership Operators:
+
+in	Evaluates to true if it finds a variable in the specified sequence and false otherwise.	x in y, here in results in a 1 if x is a member of sequence y.
+not in	Evaluates to true if it does not finds a variable in the specified sequence and false otherwise.	x not in y, here not in results in a 1 if x is not a member of sequence y.
+example:
+
+str2 = 'python'
+print('o' in str2)
+print('z' not in str2)
+for i in str2:
+    print(i)
+
+6. Identity Operators:
+compares the memory addreses of two variables:
+
+is	Evaluates to true if the variables on either side of the operator point to the same object and false otherwise.	x is y, here is results in 1 if id(x) equals id(y).
+is not	Evaluates to false if the variables on either side of the operator point to the same object and true otherwise.	x is not y, here is not results in 1 if id(x) is not equal to id(y).
+
+example:
+b = 20
+a = 22
+c = 20 # a,b,c = 20
+print(id(a))
+print(id(b))
+print(id(c))
+print(a is b)
+print(a)
+print(c)
+
+-------------------------------------------------------
+-------------------------------------------------------
+
+
+Decision making:
+
+1-If statement:
+
+a = 33
+b = 200
+#if is a build-in keyword
+if b > a: #coloan
+    print("b is greater than a") # 4spaces = 1 tab
+    print("hello")
+
+
+2. if-else:
+a = 33
+b = 200
+#if is a build-in keyword
+if a > b: #coloan
+    print("b is greater than a") # 4spaces = 1 tab
+    print("hello")
+else: #else block or else statement
+    print("I will be always executed..if IF statement is incorrect")
+
+
+a = 33
+b = 200
+ 
+if a > b:
+    print("b is greater than a") # 4spaces = 1 tab
+    print("hello")
+else:
+    print("I will be always executed..if IF statement is incorrect")
+
+
+3. elif keyword:
+a = 33
+b = 33
+if b > a: #false
+    print("b is greater than a")
+elif a == b: #pass another condition
+    print("a and b are equal")
+elif a > b:
+    print("a is greater")
+else:
+    print("all above conditions are false..")
+
+example2:
+
+let = "Z"
+if let == "B":
+    print("your letter is B")
+elif let == 'C':
+    print("your letter is C")
+elif let == 'A':
+    print("your letter is A")
+else:
+    print("letter is not A,B,C")
+
+
+a = 200
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else:#no any condition in else part
+  print("a is greater than b")
+
+a = 200
+b = 33
+#short hand if
+if a > b: print("a is greater than b")
+
+
+4. One line if else statement:
+a = 500
+b = 330
+print("Aaaa") if a > b else print("B")
+# if a>b:
+#  print("A")
+# else:
+#  print("B")
+
+a = 200
+b = 33
+c = 500
+if a > b or c > a:
+  print("Both conditions are True")
+
+5. Nested if / if else:
+
+example2:
+
+num = 20
+#nested if --> one if can contain another if....
+if num > 8:
+    print("number is really greater than 8")
+    if num<= 15:
+        print("number is between 8 and 15")
+
+
+
+-----------------------------------------------
+04/09/2023:
+
+Looping Statements:
+
+1. For Loop
+2. While Loop
+3. nested loops # one loop can contain another loop.
+4. range() function:
+this should be covered in Looping statement.
+
+
+1. For Loop:
+example1:
+
+str2 =[10,20,30,'py', 10.3, ] #string end hua
+# initialization = 0
+#increament / decreament
+#
+for i in str2:
+    print(i) # p -> y -> t -> h -> n
+
+example2:
+fruits = ["apple", "banana", "cherry",10,20.3]
+for x in fruits:
+  print(x) 
+  if x == 10:
+    break
+#break the loop 
+
+fruits = ["apple", "banana", "cherry",10,20.3,11]
+for x in fruits:
+  if x == "cherry":
+    continue
+  print(x) 
+#skip the true condition & continue with next one.
+
+for i in range(211,215):
+  print(i)
+#end - 1
+#square
+#cube
+
+1. print the number from 1-10
+2. print the square of 1-10 number
+3. print the cube of 1-10 number
+4. print even numbers 1-10
+5. print odd numbers 1-10
+
+-----------------------------------------------
+05/09/2023:
+
+
+for i in range(1,51):
+  if i % 2 == 1:
+    print(i)
+
+
+2. While loop:
+
+example1:
+num = 0 #initialization
+while num < 4: #condition
+    num += 1 #increament
+    print("printing the statements...")
+
+i = 3 #initialization
+while i < 9: #condition
+  print(i)
+  i += 1  #increament/decreament
+---------------------------------------------------
+16/06/2023:
+
+i = 0
+while i < 6:
+    i += 1
+    if i == 3:
+        continue #skip the current true condition
+    print(i)
+
+
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+else:
+  print("i is no longer less than 6")
+
+3. Nested for loop:
+
+example:
+color = ["red", "blue", "green"]
+fruits = ["apple", "bananas", "cherry"]
+for i in color: #["red", "blue", "green"]
+    for j in fruits: #["apple", "bananas", "cherry"]
+        print(i,j)
+
+4. Range() functions:
+example1:
+#WAP to print first 10 values....
+for i in range(1, 11):
+    print(i)
+#range functions always start from user defined value
+# end - 1 = is your final value
+# range(start_value, end_value)
+
+
+example2 :
+#WAP to print even number from 0-20 range....
+for i in range(1, 21):
+    if i%2 == 0:
+            print(i)
+logic 2 --
+#WAP to print even number from 0-20 range....
+for i in range(0, 21, 2):
+    print(i)
+
+example3:
+#WAP to print even number from 0-20 range....
+for i in range(1, 21, 5):
+    print(i)
+
+example4:
+print the table of 7:
+#WAP to table of 7
+# for i in range(0,71, 7):
+#     print(i)
+for i in range(1,11):
+    print(18*i)
+
+
+
+Keywords - continue, break, 
+1. pass -- 
+it will simply pass the flow.
+	
+a=22
+b= 32
+if a>b:
+    pass #keyword just flow ko pass krna
+else:
+    pass 
+
+2. break keyword:
+example:
+for i in range(0, 5): # 0, 1, 2. 3 ,4, 5
+    if i == 3: # 1 == 3
+        break # this will break the loop immediately.
+    print(i)
+
+example2:
+str2 = "python"
+for i in str2:
+    if i == 'o':
+        break
+    print(i)
+
+3. Continue keyword:
+
+
+for i in range(1,8): #1,2,3,4,5,6,7
+    if i == 3: #3 == 3
+        continue # if condition is true then skip it
+        #and "continue" with next condition
+    print(i)
+
+---------------------------------------------------
+17/06/2023:
+
+Function & its types:
+def - A functions is a block of code that performs
+a specific task..
+
+def name(): # define ..name of the function..
+    print("this is a color function...") #function defining
+
+name() #execution / function calling
+#def - keyword is used for declaring a function.
+#fun_name - any name can be given
+#fun_call - you can call function with his name and ()parenthesis
+
+A function is a block of code which 
+only runs when it is called.
+
+You can pass data, known as parameters, into a function.
+
+example2:
+
+# addition of 2 numbers using fun()-
+def add(x,y): # arguments --> to pass value(data/variable)
+    print(x+y) #calculation or computation....
+add(5,8)
+
+def add(a, b, c):
+    print(a)
+    print(b)
+    print(c)
+    d = a * b * c
+    print(d)
+add(5, 8, 5)
+add(2, 3, 4)
+
+
+Functions parameter passing:
+def add(y,z):
+  c = y + z
+  print(c)
+  
+add(20,30)
+add(5,10)
+add(50,100)
+add(200, 400)
+
+arguments is same as parameter.
+
+Arguments are specified after the function name, inside the parentheses. You can add as many arguments as you want, just separate them with a comma.
+
+def my_function(fname):
+  print(fname + " Patil")
+
+my_function("Santosh")
+my_function("Amit")
+my_function("Vaishali") # reusability
+
+
+1- Positional Arguments:
+
+def my_function(fname, lname): #positional auguemnts
+  print(fname + " " + lname) #logic
+
+my_function("santosh", "Gaikwad") #calling
+my_function("ms", "Dhoni")
+
+
+---------------------------------------
+06/09/2023:
+
+2- Variable length Positional Arguments:
+
+Arbitrary Arguments, *args
+If you do not know how many arguments 
+that will be passed into your function, 
+
+add a * before the parameter name in the 
+function definition.
+
+def my_function(*kids):
+  print("The youngest child is " + kids[3])
+# variable length positional arguments
+#variable length positional arguments
+my_function("Shubham", "Sandesh", "Abhijit", "ambadas")
+
+
+
+3. Keyword Arguments:
+You can also send arguments 
+with the key = value syntax.
+
+This way the order of the arguments does not matter.
+
+def my_function(child3, child2, child1):
+  print("The youngest child is " + child1)
+#keyword arguments
+my_function(child1 = "Emil", child2 = "Tobias", child3 = "Linus")
+#order does not matter
+
+
+4. Variable Length Keyword Arguments:
+def my_function(**kid):
+  print("His last name is " + kid["fname"])
+
+my_function(fname = "Tobias", lname = "Refsnes")
+
+
+
+5. Default parameter:
+def my_function(country = "INDIA"): #default value
+  print("I am from " + country)
+#default arguments
+my_function("Sweden")
+my_function("india2")
+my_function()
+my_function("Brazil")
+
+---------------------------------------------------
+07/09/2023:
+
+Passing a list to functions:
+
+def my_function(fruits):
+  print(type(fruits))
+  for x in fruits:
+    print(x)
+fruits = ["apple", "banana", "cherry"]
+
+my_function(fruits)
+
+#pass a list to a fun -
+def my_function(fruits):
+  print(type(fruits))
+  print(fruits)
+fruits = ["apple", "banana", "cherry", 10, 1.4]
+my_function(fruits)
+
+example2:
+
+#print even numbers from list using functions ?
+def even(lis):
+    for i in lis:
+        if i % 2 == 0:
+            print(i)
+lis = [1,2,3,4,5,6,7,8,9,10]
+even(lis)
+
+
+Return Keyword:
+
+def my_function(x):
+  return 5 * x
+#return main result to function
+print("15:-", my_function(3))
+print(my_function(5))
+print(my_function(9))
+
+example2:
+#return will - return a value to a function
+#functions can act as a variable to store calculated result..
+def my_function(x):
+  return 5 * x
+#return main result to function
+print(my_function(3))
+print(my_function(5))
+print(my_function(9))
+
+def my_function(country = "Norway"):
+  print("I am from " + country)
+
+#default arguments
+my_function("Sweden")
+my_function("India")
+my_function()
+my_function("Brazil")
+
+
+-----------------------------------------------
+07/09/2023:
+
+Lambda Function:
+A lambda function is a small anonymous function.
+
+A lambda function can take any number 
+of arguments, but can only have one expression.
+
+syntax - 
+lambda arguments : expression
+
+#one liner fun is lamnda
+# whole fun can be stored in single variable...
+hey = lambda z: z + 10 #non-standard fun
+print(type(hey))
+print(hey(7))
+
+x = lambda a, b: a * b
+print(x(5, 6))
+# we can store whole lambda function in single variable.
+
+x = lambda a, b, c: a + b + c
+print(x(5, 6, 2))
+
+example4:
+x = 'python'
+rev = lambda x: x.upper()
+print(rev(x))
+
+Why Use Lambda Functions?
+The power of lambda is better 
+shown when you use them as an anonymous 
+function inside another function.
+
+Say you have a function definition 
+that takes one argument, and that argument will be 
+multiplied with an unknown number:
+
+-------------------------------------------------
+08/09/2023
+
+3 methods:
+1. filter()
+2. map()
+3. reduce()
+
+note: above 3 methods can only be used with lambda fun()
+
+1. it is used to filter out the results.
+#filter() needs 2 parameter - lambda fun + list/tuple
+
+# print even number from list...
+li = [1,2,3,4,5,6,7,8,9]
+print(tuple(filter(lambda x: x%2==0, li)))
+
+
+2. map() function:
+map with every value present in the list.
+li = [20,30,40,45,56,76,43,65] # 2marks..
+x = list(map(lambda x: x*2, li))
+print(x)
+#map() needs 2 parameter - lambda fun + list/tuple
+
+
+3. reduce fun()
+from functools import reduce
+li = [2000,3000,50] #sum/avg/max/min
+x = reduce(lambda x, y: x+y,  li)
+print(x)
+# redude it to one value
+
+----------------------------------------------------
+09/09/2023:
+
+File Handling:
+
+File - is a container in computer storage to 
+store the data.
+any informational data (string)
+
+
+Python has several functions for 
+creating, reading, updating, and deleting files.
+
+
+The key function for working with files in 
+Python is the open() function.
+
+The open() function takes 
+two parameters; filename, and mode.
+
+There are four different methods (modes) 
+for opening a file:
+
+"r" - Read - Default value. Opens a file for reading, 
+error if the file does not exist
+
+"a" - Append - Opens a file for appending, 
+creates the file if it does not exist
+
+"w" - Write - Opens a file for writing, 
+creates the file if it does not exist
+
+"x" - Create - Creates the specified file, 
+returns an error if the file exists
+
+
+'r+' - to read and write data.
+'w+' - to write and read data.
+'a+' - to append and read the data.
+
+
+f = open('demo.txt', 'w')
+f.write("File handling is very easy... ")
+# open the file#2 write content into it.
+
+
+f = open('demo.txt', 'r')
+print(f.read())
+f.close()
+
+
+f = open("demofile.txt")
+The code above is the same as:
+
+f = open("demofile.txt", "rt")
+
+
+f = open("Testing43.txt", "r")
+print(f.read())
+
+f = open("Testing43.txt", "w")
+f.write("Testing 43 batch is good.")
+f.close()
+
+
+f = open("Testing43.txt", "w")
+f.write("Testing 43 batch is good.")
+f.close()
+
+f = open("Testing43.txt", "r")
+print(f.read())
+
+
+ou can return one line by using the readline() method:
+
+
+f = open("Testing43.txt", "r")
+#print(f.readline())
+for i in f:
+    print(i)
+
+
+import os
+os.remove("Testing43.txt")
+
+f = open('demo.txt', 'w+')
+f.write('we have to close the file which we opened.')
+
+f = open('demo.txt', 'r+')
+print(f.read())
+f.close()
+
+--------------------------------------------------------
+09/09/2023:
+
+Exception Handling
+
+we have to handle the exception just to maintain the 
+proper execution our code.
+
+what is exception/error/bug/defect?
+how it occures ?
+why we have to handle ?
+benefits if we handle it ?
+
+
+1. Try Expect Block:
+
+syntax:
+try:
+   # code that may cause the exception...
+   # suspecious code
+except:
+   # code to catch the exception
+
+example1
+
+try:
+    num1 = 10
+    num2 = 0
+    res = num1/num2
+    print(res)
+except:
+    print("sorry, you can't devide the number by 0, please use correct numbers for division")
+
+
+
+#The try block will generate a NameError, because x is not defined:
+try:
+  print(x)
+  #username
+  #password  
+except NameError:
+  print("Variable x is not defined")
+except:
+  print("Something else went wrong")
+
+#The try block does not raise any errors, so the else block is executed:
+#try-except-else block---->
+try:
+  x=10
+  print("Hello")
+  print(x)
+except:
+  print("Something went wrong")
+else: #this will executed only if there is no error with try block...
+  print("Nothing went wrong")
+
+if there is an error with try block then else
+can not be executed...
+
+If there is NOO error with try block
+then olny else block gets executed...
+-------------------------------------------------
+10/09/2023:
+
+#The finally block gets executed 
+no matter if the try block raises any errors or not:
+
+try:
+  x= 7
+  print(x)
+except:
+  print("Something went wrong")
+finally:
+  print("This will be always executed..")
+#file closing and Database connection obj closing
+
+
+
+try:
+  f = open("demofile.txt")
+  try:
+    f.write("Lorum Ipsum")
+  except:
+    print("Something went wrong when writing to the file")
+  finally:
+    f.close()
+except:
+  print("Something went wrong when opening the file")
+  
+
+Final sample code:
+
+
+x = 19
+if x <= 18:
+  raise Exception("Sorry,Your age is not acceptable for Voting.")
+
+try:
+  f = open("demofile.txt")# default read mode
+  try:
+    f.write("Hello world")
+  except:
+    print("Something went wrong when writing to the file")
+  finally:
+    f.close()
+except:
+  print("Please check a file permission when opening the file")
+
+
+
+try: to write the suspecious code.
+except: define the error here..
+else: if no error with try block then he will get executed.
+Finally: Always be executed..
+  
+-------------------------------------------------------
+28/06/2023
+
+Python Dates Module:
+
+from datetime import date
+curr_date = date.today()
+print(curr_date)
+
+
+use datetime module.
+you can print the current date.
+
+
+import datetime #package/module/library
+
+z = datetime.datetime.now() #prints current date
+
+print("current date tiem is- :", z)
+
+
+import datetime #package/module/library
+z = datetime.datetime.now() #prints current date
+print("current date tiem is- :", z)
+print(z.year)
+print(z.month)
+print(z.day)
+a = z.strftime("%A")
+print(a)
+#a = z.year
+#print(a)
+#DD/MM/YYYY
+#MM/DD/YYYY
+
+
+
+import datetime
+z = datetime.datetime(1947, 8, 15, 3, 1, 23)#user defined date
+print(z.year)
+print(z.month)
+print(z.day)
+print(z.hour)
+print(z.minute)
+print(z.second)
+print(z.strftime("%B"))
+
+------------------------------------------------------
+DateTime:-
+
+from datetime import date
+curr_date = date.today()
+print(curr_date)
+
+from datetime import date
+curr_date = date.today()
+print(curr_date)
+print(curr_date.year)
+print(curr_date.day)
+
+
+datetime.datetime.now()
+package.class.method()
+
+def fun():
+    print("hello") #line indentation = 4 spaces or 1tab
+    print()
+    print()
+print("HEllo") # no indentation follows..
+
+
+Q. print only current time..
+
+###difference bertween 2 dates
+from datetime import datetime, timedelta
+
+curr = datetime.now()
+print(curr)
+#difference bertween 2 dates
+new_date = curr - timedelta(days=23)
+print(new_date)
+
+-----------------------------------------------------
+29/06/2023:
+
+JSON
+
+xml - extensible markup language
+JSON:(Java Script Object Notation)
+
+it is a popular data exchange format 
+language independant (not relay on any lang.)
+ex - web application[client-server/database]
+
+client-->sends only requests[python.org]
+server--> sends only response
+how?
+
+why it is in python ?
+
+json - dict --->
+dict - json --->
+
+import json #use this to interact with JSON
+json_string = '{"name":"python", "language":["Python", "java"]}'
+print(type(json_string))
+lang_dict = json.loads(json_string)
+#loads-- convert json data into dictionary..
+print(type(lang_dict))
+print(lang_dict)
+print(lang_dict['language'][0])
+
+
+
+
+
+import json #use this to interact with JSON
+json_string = '{"name":"python", "language":["Python", "java"]}'
+print(type(json_string))
+lang_dict = json.loads(json_string)
+#loads-- convert json data into dictionary..
+print(type(lang_dict))
+print(lang_dict)
+print(lang_dict['language'][0])
+
+#dumps() --- dict to json...
+
+Python JSON:
+
+Methods-
+1. loads() - to convert json string into 
+python dictionary.
+
+import json #use this to interact with JSON
+json_string = '{"name":"python", "language":["Python", "java"]}'
+print(type(json_string))
+lang_dict = json.loads(json_string)
+#loads-- convert json data into dictionary..
+print(type(lang_dict))
+print(lang_dict)
+print(lang_dict['language'][0])
+
+dumps() methods:
+import json
+dic = {
+    "name": ["json", "os", "math"],
+    "age": 21,
+    "address": "Mumbai"
+}
+json_date = json.dumps(dic)
+print(json_date)
+print(type(json_date))
+
+
+import json
+dic = {
+    "name": ["json", "os", "math"],
+    "age": 21,
+    "address": "Mumbai"
+}
+with open("sample.json", "w") as f: #context manager
+    json.dump(dic, f)
+#file automatically create
+#dic write in json file.
+
+
+------------------------------------------------------
+29/06/2023:
+
+Class and Objects : 
+OOP's - Object Oriented Programming..
+
+
+Python is a programming language it also supports
+Object and classes.
+
+Basic class
+
+class Example: #class defining
+    pass
+
+ex1 = Example() #object
+
+class Demo:
+    
+    """just to write your doc string here
+    doc stirng - information related to your class
+    """
+    def hello(self):
+        print("welcome in class and object session")
+    def welcome(self):
+        print("welcome in class ")
+d1 = Demo() #creating the objects...
+d1.hello # function call to hello
+d1.welcome()
+
+
+-----------------------------------------------------
+30/06/2023:
+
+
+Python OOP's concepts:
+Object Oriented Programming Language.
+Class & object - 
+Python Programming supports the oops concepts.
+object - is a collection of data(variable/datatype) and
+methods(functions)
+
+class - is a blueprint(defined synatx)
+
+for ex:-  car - [BMW]
+data - color,price, seating capicity, mileage etc 
+
+functions:- speed(), start(), stop() etc
+
+to defien the class - use class keyword
+
+classname - camel case
+
+class ClassName: #classname
+    pass
+
+def classname():
+    pass
+
+class CarModel: #classname
+    name = "BMW" #variable
+    gear = 5
+    def run(self):   #functions
+        print("Car gear is:- ", self.gear)
+        print("car name is:- ", self.name)
+    def gear1(self):
+        print("car gear is:- ", self.gear)
+car_obj = CarModel() #create the the object
+print(car_obj.name)
+car_obj.run() #with the help object, call the function.
+car_obj.gear1()
+
+
+
+
+Global & Local variable
+self is a keyword/argument/parameter
+which is used to hold the value for temporary purpose.
+
+constructor is used to initialize the value...
+
+__init__(self) - constructor is called automatically 
+every time the class is being called. 
+or used to create the new object.
+
+
+run() - user defined function
+
+_run() - private function
+
+__run__() - built-in strongly private function
+
+"""class CarModel: #classname
+    name = "BMW" # global variable
+    gear = 5
+    def run(self):   #functions
+        print("Car gear is:- ", self.gear) #pointer temporary hold
+        print("car name is:- ", self.name)
+    def gear1(self):
+        print("car gear is:- ", self.gear)
+
+obj = CarModel() #create the the object
+print(obj.name)
+print(obj.gear)
+obj.run() #with the help object, call the function.
+obj.gear1()"""
+
+
+Constructor program:
+class Fruit:
+    def __init__(self, name, price): #constructor
+        self.name = name #initilization (exact assigning the value)
+        self.price = price
+
+    def value(self):
+        print("Fruit name is", self.name, "and price is", self.price,".")
+# use only one constructor per class(limitation)
+fruit_obj = Fruit("Mango", 200)
+print(fruit_obj.name)
+print(fruit_obj.price)
+fruit_obj.value()
+
+
+example2:
+
+class Fruit:
+    def __init__(self, name, price): #constructor
+        self.name = name #initilization (exact assigning the value)
+        self.price = price
+    def value(self):
+        print("Fruit name is", self.name, "and price is", self.price,".")
+# use only one constructor per class(limitation)
+fruit_obj = Fruit("Mango", 200)
+obj2 = Fruit("cherry", 300)
+obj4 = Fruit("apple", 400)
+print(fruit_obj.name)
+print(fruit_obj.price)
+fruit_obj.value()
+obj2.value()
+obj4.value()
+
+
+
+program 3:
+
+class Fruit:
+    def __init__(self, name, price, mono): #constructor
+        self.name = name #initilization (exact assigning the value)
+        self.price = price #price = 400
+        self.mono = mono
+    def value(self):
+        print("Fruit name is", self.name, "and price is", self.price,". Please react out to", self.mono)
+    def contact(self):
+        print("contact number - ", self.mono)
+# use only one constructor per class(limitation)
+fruit_obj = Fruit("Mango", 200, 123456789)
+fruit_obj2 = Fruit("Watermelon", 400, 123456789)
+print(fruit_obj.name)
+print(fruit_obj.price)
+fruit_obj.value()
+fruit_obj.contact()
+fruit_obj2.value()
+
+-----------------------------------------------------
+01/07/2023::
+
+Sample Program & Inheritance:-
+
+1. Write a python program to create
+a student class and create an object to it.
+use display method to display the 5 student details.
+for ex - name, roll no, marks, div (90%)
+
+
+Solution:---
+
+class Student:
+    def __init__(self, name, roll_no, marks, div):
+        self.name = name
+        self.roll_no = roll_no
+        self.marks = marks
+        self.div = div
+
+    def display(self):
+        print("my name is:", self.name)
+        print("roll number is:", self.roll_no)
+        print("my marks are:", self.marks)
+        print("division is:", self.div)
+
+
+#re-usability ---> multiple times re-use the code
+obj1 = Student("Rushi", 1, 80, "A")
+obj1.display()
+obj2 = Student("Manish",2 , 80, "A")
+obj2.display()
+
+
+--------------------------------------------
+
+Inheritance:-
+inheritance is used to acquire the properties
+[data & methods/functions] of one class to 
+another class.
+
+#reusability purpose...
+
+Terminilogy:
+parent class[base class]: is the class being 
+inherited from.
+
+child class[derived class]: is the class 
+that inherits from another class.
+
+
+
+4 types of inheritance:
+
+1. single inheritance
+2. multiple inheritance
+3. multilevel inheritance
+4. hierarchical inheritance
+
+
+single inheritance program:
+
+class Parent: #Base Class
+    def fun1(self): #functions / methods
+        print("This is coming from parent class..........")
+
+#Derived Class
+class Child(Parent): #linking of parent n child class
+    def fun2(self): #functions / methods
+        print("This is from Child class.")
+
+child_obj = Child() # create child class object
+child_obj.fun1() # call parent class methods/functions
+
+Program2:
+
+class Parent: #Base Class
+    def fun1(self): #functions / methods
+        print("This is coming from parent class..........")
+    def newfun(self): #functions / methods
+        print("This is coming from parent class new fun..........")
+#Derived Class
+class Child(Parent): #linking of parent n child class
+    def fun2(self): #functions / methods
+        print("This is from Child class.")
+parent_obj = Parent()
+parent_obj.fun1()
+child_obj = Child() # create child class object
+child_obj.fun1() # call parent class methods/functions
+child_obj.newfun() #syntax: child_obj name . parent class fun_name
+child_obj.fun2()
+
+---------------------------------------------------
+
+Inheritance Types-
+1. single inheritance - 1 base class & 1 child class.
+
+2. Multiple inheritance - 2 parent class & 1 child class.
+
+A class can be inherited from more than one parent class, called multiple 
+inheritance.
+
+Child class is derived from two parent classes: Parent1 & Parent2.
+
+program:-
+
+#Base class 1
+class Parent1:
+    def parent_info(self):
+        print("This is parent 1 info class.")
+#Base class 2
+class Parent2:
+    def parent_info_two(self):
+        print("This is parent two info class.")
+#derived class...
+class Child(Parent1, Parent2): #multiple inheritance
+    pass
+obj1 = Child()
+obj1.parent_info()
+obj1.parent_info_two()
+
+
+3. Multilevel Inheritance:
+
+class Base:
+    def __init__(self, name):
+        self.name = name
+    def get_name(self):
+        return self.name
+class Child1(Base):
+    def __init__(self, name,age):
+        Base.__init__(self,name) #name variable init
+        self.age = age
+    def get_age(self):
+        return self.age
+class GrandChild(Child1):
+    def __init__(self, name,age,address):
+        Child1.__init__(self,name,age)
+        self.address = address
+    def get_address(self):
+        return self.address
+
+obj2 = Base("Python2")
+print(obj2.get_name())
+
+obj3 = Child1("Python3", 21)
+print(obj3.get_age())
+
+
+obj1 = GrandChild("Python", 23, "Mumbai")
+print(obj1.get_name())
+#print(obj1.get_age())
+print(obj1.get_address())
+
+
+Hierarchical & Hybrid inheritance:
+
+When more than one derived class are created from a 
+single base class. 
+
+doc_string-
+used to represent description of the class.
+within the class doc srting is always optional.
+
+syntax:-
+
+#classname.__doc__
+
+#function_name.__doc__
+
+
+"""class Parent: #Base Class
+    """ #doc_string
+    This class is used to define the heirarchical inheritance
+    create child1 and child2 as derived class.
+    """
+    def parent1(self):
+        print("This is from parent class..")
+
+class Child1(Parent): #child1 from Parent class
+    def child_one(self):
+        print("This is from Child1 class....")
+
+class Child2(Parent): #child2 from Parent class
+    def child_two(self):
+        print("This is from Child two class")
+obj1 = Child1()
+obj2 = Child2()
+obj1.parent1()
+obj1.child_one()
+
+obj2.parent1()
+obj2.child_two()
+
+print(Parent.__doc__) #classname.__doc__
+"""
+
+
+
+
+
+
+Hybrid inheritance:
+its a combination of any two inheritance is called Hybrid 
+inheritance.
+
+class School:
+    def print_school(self):
+        print("This is in School class")
+class Student1(School):
+    def print_student(self):
+        print("This is in Student one class")
+class Student2(School): #hierarchical
+    def print_student2(self):
+        print("This is in School two class")
+class Main(Student1, School): #multiple
+    def main_fun(self):
+        print("This is in Main class")
+obj1 = Main()
+obj1.print_school()
+obj1.print_student()
+
+---------------------------------------------
+
+03/07/2023:
+
+Polymorphism:
+its ability to take more than one form..
+it takes many forms...
+
+#program to demonstrate in-built polymorphism
+print(len("python"))
+print(len([10,20,"python", 23.4]))
+print(len((10,20,"tuple", "list", 32.2)))
+#its mehtod name is same but it has diff signature(use/behaviour/usecase)
+
+example2: 
+c = 10 + 32 #addition
+print(c)
+
+print("python" + "Language") #concatination
+
+
+class India:
+    def capital(self):
+        print("New Delhi is the capital of india")
+    def language(self):
+        print("Hindi is widely spoken")
+
+class USA:
+    def capital(self):
+        print("Washington D.C is the capital of USA")
+    def language(self):
+        print("English is widely spoken")
+obj1 = India()
+obj2 = USA()
+for i in (obj1, obj2):
+    i.capital() #obj1.capital
+    i.language() #obj1.language
+
+"""obj1.capital()
+obj1.language()
+obj2.capital()
+obj2.language()"""
+
+
+
+------------------------------
+interview questions;
+
+Topic:
+
+1. standard fun: [return]
+2. lambda fun
+
+3. Generator Function:
+it a function, it like a normal function but
+it uses yield keyword to return the value.
+yield -- return kr ke dega value to function..
+
+if the body of the fun contains the yield keyword
+the functions automatically becomes generator function.
+
+def simple_generator(): #generator function....
+    yield 1 #keyword/ built-in keyword
+    yield 2 #yield-- "to produce" to return
+    yield "Python"
+#return will return the all value at a time
+for i in simple_generator():
+    if i == "Python":
+        print(i)
+for i in simple_generator():
+    print(i)
+
+#if the function body contains yield keyword the function becomes automatically
+# generator function
+def simple_gene(): #standard fun
+    return 1,2,3,4,"Python"
+print(simple_gene())
+
+
+
+def simple_generator(): #generator function....
+    yield 1 #keyword/ built-in keyword
+    yield 2 #yield-- "to produce" to return
+    yield "Python"
+#return will return the all value at a time
+for i in simple_generator(): #print specific
+    if i == "Python":
+        print(i)
+for i in simple_generator(): #to print all the variables
+    print(i)
+i = simple_generator() #print one at a time
+print(next(i)) # next will print the next number in the sequence...
+
+
+
+#if the function body contains yield keyword the function becomes automatically
+# generator function
+def simple_gene(): #standard fun
+    return 1,2,3,4,"Python"
+print(simple_gene())
+
+--------------------------------------------------
+Interview Questions
+Lambda Filter, Map, Reduce Method:
+
+1. filter():
+Filter function is used to add a filter or filter out the result..
+#syntax = filter(function, iterable)
+example:
+lis = [1,2,3,4,5,6,7,8,9,10] #iterable
+#syntax = filter(function, iterable)
+s = list(filter(lambda x: x%2 == 0, lis))
+print(s)
+
+
+
+#Filter function is used to add a filter or filter out the result..
+lis = [1,2,3,4,5,6,7,8,9,10] #iterable
+#syntax = filter(function, iterable)
+s = list(filter(lambda x: x%2 == 1, lis))
+print(s)
+
+#fruits =
+s = tuple(filter(lambda fruit: 'a' in fruit, ["mango", "apple", "cherry"]))
+print(s)
+
+
+2. map():
+tuple = (2,3,4,5)
+s = list(map(lambda x: x * x * x, tuple))
+print(s)
+#map is used to modify every value in the iterable...
+# lambda arguments : expression
+
+3. reduce():
+
+#the sum of all elements
+from functools import reduce #pkg/library
+lis = [2,4,6,7,8,9] #reduce it to one value #sum avg
+#s = (reduce(lambda x,y: x+y, lis)) #addition of all number's
+s = (reduce(lambda x,y: x if x>y else y, lis))
+#dont use list type conversionhere...
+print(s)
+
+#the sum of all elements
+from functools import reduce #pkg/library
+lis = [2,4,6,7,8,9] #reduce it to one value #sum avg
+#s = (reduce(lambda x,y: x+y, lis))
+s = (reduce(lambda x,y: x if x<y else y, lis))
+#dont use list type conversionhere...
+print(s)
+
+---------------------------------------------
+Important topics:
+1. data types [int,float,str,list,tuple,dict,set,boolean
+frozen-set, None, complex] 8-9
+string, list, dict, set, tuple
+
+13. list comprehensoin with example
+
+14. dictioanry comprehension with example
+
+2. functions -- 4 ways to pass a parameter
+*args & **kwargs 
+
+3. looping - for , while , nested loops
+
+4. condition statements - if, if-else, elif, nested..
+
+5. file handling - open, read, write, close, append
+
+6. exception handling - try, except, else 
+and finally block
+
+7. classes and objects - class & object, self, 
+__init__()
+
+8. json - loads() & dumps(), dump()---
+
+9. generator() - normal fun & generator
+
+10. lambda function - one exp, can store in variable..
+- filter , map , reduce .....
+
+11. inheritance() - acquire the properties...
+
+12. polymorphism -- len() fun and + operator(addition,
+concatination purpose)
+
+speed, execution time is less
+memory is reduced
+dynamicness
+versitile python
+
+code re-usability
+scalable (1 module...2 module integrate)
+modularity...(single module)
+
+
+
+List Programs:
+
+1. write a program to find largest number from the list.
+solution -- 
+lis = []
+num = int(input("How many elements you want to enter:")) #10
+for i in range(1, num + 1): #range
+    element = int(input("enter exact number:"))
+    lis.append(element)
+print("origional list is:- ", lis) #10 1st verification
+#print("Max number is: ", max(lis)) #max number of the list
+
+
+2. write a program to find smallest number from the list.
+solution -- 
+lis = []
+num = int(input("How many elements you want to enter:")) #10
+for i in range(1, num + 1): #range
+    element = int(input("enter exact number:"))
+    lis.append(element)
+print("origional list is:- ", lis) #10 1st verification
+#print("Man number is: ", min(lis))
+
+3. write a program to find the second largest number from the list.
+ use only list -1 to get the second largest
+
+
+4. write a program to find the second smallest number from the list.
+use only list -1 to get the second smallest..
+
+
+5. Accept the numbers inside list and print it.
+solution -- lis = []
+num = int(input("How many elements you want to enter:")) #10
+for i in range(1, num + 1): #range
+    element = int(input("enter exact number:"))
+    lis.append(element)
+print("origional list is:- ", lis)
+
+
+6. Accept the numbers inside list and print odd & even 
+numbers in different list. 
+solution -- lis = []
+num = int(input("How many elements you want to enter:")) #10
+for i in range(1, num + 1): #range
+    element = int(input("enter exact number:"))
+    lis.append(element)
+print("origional list is:- ", lis)
+
+even_lis = []
+odd_lis = []
+for i in lis:
+    if i %2 == 0:
+        even_lis.append(i)
+    else:
+        odd_lis.append(i)
+print("Even list is:", even_lis)
+print("odd list is:", odd_lis)
+
+
